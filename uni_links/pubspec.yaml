@@ -7,8 +7,11 @@ dependencies:
   flutter:
     sdk: flutter
   uni_links_platform_interface:
-    path: '../uni_links_platform_interface' # TODO this must change to a version from pub.dev before publishing
-
+    git:
+      url: https://github.com/miDeb/uni_links.git
+      ref: modernized
+      path: uni_links_platform_interface
+    
 dev_dependencies:
   flutter_test:
     sdk: flutter
